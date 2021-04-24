@@ -6,4 +6,12 @@
 ---> Cделал
 2. Добавить в программу для отображения доски при помощи tree.js :
 2.1. Добавить возможность чтения конфигурации шашек при помощи REST API c REST сервера
-2.1. Добавить возможность изменения конфигурации шашек при помощи REST API (опционально)
+2.1. Добавить возможность изменения конфигурации шашек при помощи REST API (опциональн
+
+надо установки:
+  - mongodb. then -> restore DB : mongorestore -d testDB /testDB
+  - nodeJS and its library : npm install express nodemon mongoose dotenv body-parser cors path
+  - 
+запустить : 
+- npm start
+- enter address: http://localhost:5000
