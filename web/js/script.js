@@ -361,7 +361,10 @@ function getInfo(){
 
 function animate(){
     moveArrowKey(pawnBlack[3]);
-    pawnBlack[4].rotation.y += 0.3
+    if (pawnBlack[4].position.z < 0){
+        pawnBlack[4].position.z += 0.1;
+    }
+    
     getInfo();
     requestAnimationFrame(animate);
     renderer.render(scene,camera);
